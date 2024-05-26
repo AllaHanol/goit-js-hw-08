@@ -1,7 +1,7 @@
 const images = [
   {
     preview:
-      'https://cdn.pixabay.com/photo/2019/05/14/16/43/rchids-4202820__480.jpg',
+      'https://cdn.pixabay.com/photo/2019/05/14/16/43/rchids-4202820__340.jpg',
     original:
       'https://cdn.pixabay.com/photo/2019/05/14/16/43/rchids-4202820_1280.jpg',
     description: 'Hokkaido Flower',
@@ -64,14 +64,6 @@ const images = [
   },
 ];
 
-/* 
-preview — посилання на маленьку версію зображення
-original — посилання на велику версію зображення 
-description — текстовий опис, для  alt  
-
-
-
-*/
 
 function imageTemplate({ preview, original, description }) {
   return `<li class="gallery-item">
@@ -112,3 +104,4 @@ ulElem.addEventListener("click", (e) => {
     instance.close();
   });
 });
+
