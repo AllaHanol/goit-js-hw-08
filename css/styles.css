@@ -12,21 +12,19 @@ img {
   height: auto;
   max-width: 510px;
   max-height: 310px;
-
 }
 
-body{
+/* body{
   display: flex;
   justify-content: center;
-}
+} */
 .gallery {
-    max-width: 1440px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
+padding-top: 24px;
+padding-bottom: 24px;
     
 }
 .gallery-item {
@@ -34,7 +32,7 @@ body{
     height: 200px;
 }
 .gallery-item:hover img {
-        transform: scale(1.04);
+transform: scale(1.04);
 }
   
 .gallery-link{
